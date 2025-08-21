@@ -18,8 +18,6 @@ Chef needs to encode a message `S` of length `N`, which contains only lowercase 
 ### Step 2: Alphabet Inversion
 - Replace each letter with its "opposite" in the alphabet:
   - `'a'` becomes `'z'`, `'b'` becomes `'y'`, ..., `'z'` becomes `'a'`.
-  - This can be calculated using the formula:  
-    `inverted_char = chr(ord('a') + (25 - (ord(ch) - ord('a'))))`
 
 ## Input Format
 
